@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 120px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* nav-bar starts */
+nav{
+    background-color: white;
+    height: 122px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    right: 120px;
+    left: 120px;
+    top: 0;
+}
+nav img{
+    height: 50px;
+    margin: 34px;
+}
+nav .material-symbols-outlined{
+    margin-left: 842px;
+}
+nav span{
+    cursor: pointer;
+}
+/* <!-- nav bar ends --> */
+
+/* main body starts */
+
+/* section-1 starts */
+.section-1 img{
+    width: 100%;
+    margin-top: 122px;
+    height: 640px;
+    /* position: relative; */
+}
+.section-1 h1{
+    background-color: rgb(255, 255, 255);
+    display: inline;
+    font-size: 54px;
+    padding: 0 28px;
+}
+.section-1 #section-1-h{
+    position:absolute;
+    margin-top: -469px;
+
+}
+.section-1 #section-1-h-1{
+    position: absolute;
+    margin-top: -400px;
+}
+.section-1-content-box{
+    background-color: rgb(0, 0, 0);
+    width: 37%;
+    color: white;
+    position: absolute;
+    margin-top: -300px;
+    padding: 10px 34px;
+    line-height: 22px;
+}
+.section-1-content-box p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.section-1-content-box span{
+    color: #e5007d;
+}
+
+.boxes .box-1{
+    display: flex;
+    background-color: #6bbbae;
+    justify-content: space-between;
+    width: 49%;
+    align-items: center;
+}
+.boxes .box-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e5007d;
+    width: 49%;
+    align-items: center;
+
+}
+.boxes a{
+    /* padding: 24px 0; */
+}
+.boxes .learn-more{
+    color: black;
+    background-color: #d3eae6;
+    margin-left: 220px;
+    padding: 8px;
+}
+.boxes .find-course{
+    margin-right: 14px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 8px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+/* section-1 ends */
+
+/* section- main starts */
+/* section-2 starts */
+.section-main{
+    margin: 0px 40px;
+}
+.section-main iframe{
+    width: 100%;
+    height: 700px;
+    position:relative ;
+    margin-top: 40px;
+}
+
+.section-2{
+    margin: 40px 10px;
+}
+.section-2 span{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin: 330px 43px;
+    padding: 15px 110px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.section-2 .pinks:hover{
+    background-color: #e5007d;
+}
+.section-2 .greens:hover{
+    background-color: #6bbbae;
+}
+/* section-2 ends */
+
+/* News-events starts */
+.section-main .news{
+    margin-top: 100px;
+}
+.news-events .news-events-articles{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.news-events-articles span{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.news-events-articles p{
+    /* font-size: 18px; */
+    font-weight: 600;
+}
+.news-events-articles .span-edit{
+    color: #6c757d;
+}
+#see-more{
+    text-decoration: none;
+    margin: 100px 0 0 980px;
+    background-color: black;
+    color: #6bbbae;
+    padding: 12px 40px;
+    font-weight: 600;
+}
+#see-more:hover{
+    background-color: #6bbbae;
+    color: black;
+    transition: .3s;
+}
+
+/* News-events ends */
+
+/* <!-- section-3 starts --> */
+.section-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.section-3 .sec-3-box-1{
+    width: 49%;
+}
+.sec-3-box-1 iframe{
+    height: 320px;
+}
+.sec-3-box-1 .p-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec-3-box-1 h1{
+    font-size: 30px;
+}
+.sec-3-box-1 .img1{
+    margin-top: 40px;
+    height: 320px;
+}
+/* <!-- section-3 ends --> */
+
+/* <!-- section-4 starts --> */
+.section-4 h1{
+    margin-top: 110px;
+    font-size: 34px;
+}
+.section-4 i{
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+/* <!-- section-4 ends --> */
+/* section main */
+/* main body ends */
+
+/* <!-- footer starts --> */
+footer{
+    background-color: black;
+    height: 340px;
+    margin-top: 74px;
+    display: flex;
+    justify-content: space-around;
+}
+.foot-1 img{
+    height: 40px;
+}
+.foot-1 p{
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+.foot-1 p:hover{
+    border-bottom: 1px white solid;
+}
+.foot-1{
+    margin-top: 40px;
+}
+.foot-1 .foot-head{
+    font-size: 15px;
+    font-weight: 600;
+}
+/* <!-- footer ends --> */
+
